@@ -107,7 +107,7 @@ img {
 .first-section {
     width: 80%;
     margin: auto;
-    
+
 
 
 }
@@ -120,52 +120,91 @@ h2 {
 }
 
 .boxes {
-width: 150px;
-height: 150px;
-border: 4px solid #3882F6;
-border-radius: 10%;
-margin: auto;
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 10%;
+    margin: auto;
 
 }
-.box-row{
-display: flex;
-justify-content: center;
-margin-bottom: 100px;
-gap: 50px;
+
+.box-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    gap: 50px;
 
 
 }
-.p-center{
-width: 150px;
-text-align: center;
+
+.p-center {
+    width: 150px;
+    text-align: center;
 }
-.quote-section{
-background-color: #e5e7eb;
-display: flex;
-justify-content: center;
-padding: 70px 0px;
+
+.quote-section {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    padding: 70px 0px;
 
 }
-.quote-author{
-   text-align: right;
-   display: block;
+
+.quote-author {
+    text-align: right;
+    display: block;
     font-weight: bold;
 
 
 
 }
-.quote-style{
-font-size: 36px;
-font-style: italic;
-color:#1F2937;
+
+.quote-style {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
 
 
 }
-.style-the-quote-and-author{
+
+.style-the-quote-and-author {
+    max-width: 70%;
+
+
+
+}
+.call-to-action{
+background-color: #3882f6;
 max-width: 80%;
+margin: 50px auto;
+border-radius: 10px;
+padding: 40px 60px ;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.button-bottom-style{
+    background-color: #3882F6;
+    padding: 8px 30px;
+    color: #E5E7EB;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    border: 2px solid white;
 
 
 
 }
+.little-p-style{
+font-size: 23px;
+color: #E5E7EB;
+font-weight: 600;
 
+}
+.large-p-style{
+color: #E5E7EB;
+
+
+
+}
 
